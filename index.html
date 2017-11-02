@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		
+		.jumbotron{
+			/*background-color: #92b2e5;*/
+			background: linear-gradient(to bottom right, #92b2e5, yellow);
+		}
+		body{
+			padding-top: 70px;
+		}
+		.jumbo{
+			float: right;
+		}
+		.navbar-inverse{
+			background-color: #10274c;
+		}
+		
+		.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> PhotoHog</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>	
+
+	<div class="container">
+		<div class="jumbotron">
+
+			<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> The Boyer Image Gallery</h1>
+			<p>An example of the Bootstrap grid system with beautiful pictures</p>
+			<span class="jumbo glyphicon glyphicon-fire"> </span>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/22815361_1460640734035313_4124801416297875536_n.jpg?oh=94cd40ab19415babc9bd74bd487a7de3&oe=5A6AE2BA">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">	
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/15085674_1129484273817629_8349214292320580915_n.jpg?oh=28b94f382c4be76d3f382a5a3082babf&oe=5AA38BC9">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/22046625_1433459340086786_8503766068030045604_n.jpg?oh=4a7690e2149fea6bd8fd544889f06625&oe=5AAA8A61">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/19601578_1348597545239633_8189531974242832955_n.jpg?oh=270868b5f3d2eafb09fce1442f9ac2d5&oe=5A6B8935">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">	
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/264871_433018306797566_1931328915_n.jpg?oh=8f8bca38e12684592ab1a1195e4de3e3&oe=5A66A3CE">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/1070036_443998969032833_134630226_n.jpg?oh=42c330d367fc327569fa13fc639dc30a&oe=5A64D028">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/10294364_608696655896396_1147791887680880526_n.jpg?oh=a6868916387e87e0a5dc224495e0f0aa&oe=5AAA3736">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">	
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/17458384_1254896601276395_4845621561231626713_n.jpg?oh=3170184d9e718867e2bb3478332795aa&oe=5A6CA078">
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+				<div class="thumbnail">
+					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/17022041_1227851647314224_4459267903604058186_n.jpg?oh=b0a74e7f0663e456c13092d6e44f0582&oe=5A75A650">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="bootstrap.js"></script>
+</body>
+</html>
+
