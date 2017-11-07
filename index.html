@@ -28,6 +28,7 @@
     height:auto;
     display:block;
     z-index:999;
+	
 }
 
 	</style>
@@ -43,16 +44,29 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> PhotoHog</a>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span></a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-nav-demo">
 				<ul class="nav navbar-nav">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><div class="dropdown" style="margin-top: 8px">
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							  More Info
+							  <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							  <li><a href="https://en.wikipedia.org/wiki/South_Gorin,_Missouri">Gorin</a></li>
+							  <li><a href="https://en.wikipedia.org/wiki/Rutledge,_Missouri">Rutledge</a></li>
+							   <li role="separator" class="divider"></li>
+							  <li><a href="https://mdc.mo.gov/">Dept. of Conservation</a></li>
+							</ul>
+						  </div></li>
+					<!--<li><a href="#">About</a></li>-->
+					<li><a href="#"></a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Sign up</a></li>
-					<li><a href="#">Login</a></li>
+					<li><a href="#"></a></li>
+					<li style="color: white" >
+						<a href="https://www.facebook.com/groups/279665965512862/"><i class="fa fa-facebook-official" aria-hidden="true"></i> Boyer Family</a></li>
 				</ul>
 			</div>
 		</div>
@@ -60,16 +74,17 @@
 
 	<div class="container">
 		<div class="jumbotron">
-
+			
 			<h1><i class="fa fa-camera-retro" aria-hidden="true"></i> The Boyer Image Gallery</h1>
-			<p>An example of the Bootstrap grid system with beautiful pictures</p>
-			<span class="jumbo glyphicon glyphicon-fire"> </span>
+			<p>A few pictures of our adventures on the farm</p>
+			<!--<div id="cont_cd5dff3bcf04911e144b12292e4cefb5" style= text-align:right><script type="text/javascript" async src="https://www.theweather.com/wid_loader/cd5dff3bcf04911e144b12292e4cefb5"></script></div>-->
 		</div>
 		<div class="row">
+			
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 				<div class="thumbnail">
 					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/22815361_1460640734035313_4124801416297875536_n.jpg?oh=94cd40ab19415babc9bd74bd487a7de3&oe=5A6AE2BA">
-				</div>
+									</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 				<div class="thumbnail">	
@@ -92,7 +107,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-				<div class="thumbnail">
+				<div class="thumbnail ">
 					<img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/1070036_443998969032833_134630226_n.jpg?oh=42c330d367fc327569fa13fc639dc30a&oe=5A64D028">
 				</div>
 			</div>
@@ -117,6 +132,7 @@
 
 	<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
 	<script src="bootstrap.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
 <!-- Comment again -->
